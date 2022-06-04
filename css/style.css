@@ -1,0 +1,106 @@
+.body{
+background-color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+input {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+    line-height: 25px;
+}
+.header_bottom{
+    color:white;
+    text-decoration: none;
+    border-right: 1px solid #0069C4;
+}
+.header_bottom:last-child{
+
+    border-right: 0;
+}
+.header_bottom:hover{
+color: #0069C4;
+}
+.search_input{
+    width: 80%;
+    height:40px;
+    border-radius: 20px 0 0 20px;
+    float: left;
+    padding-left: 20px;
+
+}.search_button{
+    width: 20%;
+    height:40px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    background-color: #0089FF;
+
+}
+ .urun_div{
+     width: 21%;
+     max-width: 239.4px;
+     margin: 20px 2% 0 2%;
+     border: 1px solid #ececec;
+     box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+     transition: box-shadow 0.1s ease-in-out;
+     background-color: #fff;
+     height: 340px;
+ }
+.urun_div:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+ }
+.facebook{
+    margin-right: 10px;
+}
+.facebook:hover{
+   color: #0089FF;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.footer_name{
+    color: white;
+    margin-left: 10px;
+}
+.footer_name:hover{
+    color: #0089FF;
+}
+.footer_right{
+    padding: 0 20px 0 20px;
+    color: #908F8F;
+ }
+.footer_right:hover{
+    color: #0089FF;
+}
+#gal1 img{border:2px solid white;}
+
+/*Change the colour*/
+.active img{border:2px solid #333 !important;}
+
+.hesabim{
+    text-align: center;
+    margin-left: 50px;
+    height: 40px;
+    width: 170px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+.urun_but{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0089FF;
+    border:0;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    margin: 25px 20px 0 0;
+}
